@@ -11,6 +11,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="./static/style/style.css">
+    <link rel="stylesheet" type="text/css" href="./static/style/slider-def.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -33,10 +34,68 @@
             <li><a href="cars.html">Наші авто</a></li>
         </ul>
     </header>
-    <div class="wrapper">
+    <div id="slider"> 
+        <div class="slides">
+        
+        <!-- First slide --> 
         <div class="slider">
-
+        <div class="legend"></div> 
+        <div class="content"> 
+        <div class="content-txt"> 
+        <h1> Широкий вибір автомобілів</h1> 
+        <h2>Наш асортимент задовольнить навіть самих вибагливих клієнтів!</h2> 
+        </div> 
+        </div> 
+        <div class="images"> 
+        <img src="static/img/1slide.png"> 
+        </div> 
+        </div> 
+        
+        <!-- Second slide --> 
+        <div class="slider">
+        <div class="legend"></div> 
+        <div class="content"> 
+        <div class="content-txt"> 
+        <h1> Подорожуйте з легкістю </h1> 
+        <h2> Mr. Car - кращий спосіб подорожувати країною </h2> 
+        </div> 
+        </div> 
+        <div class="images"> 
+        <img src="static/img/2slide.png"> 
+        </div> 
+        </div> 
+        
+        <!-- Third slide --> 
+        <div class="slider">
+        <div class="legend"></div> 
+        <div class="content"> 
+        <div class="content-txt"> 
+        <h1> Ідеальний стан авто </h1> 
+        <h2> Ми дбаємо про клієнтів, тому самостійно проводимо СТО точно в строк! </h2> 
+        </div> 
+        </div> 
+        <div class="images"> 
+        <img src="static/img/3slide.jpg"> 
+        </div> 
+        </div> 
+        
+        <!-- Fourth slide --> 
+        <div class="slider">
+        <div class="legend"></div> 
+        <div class="content"> 
+        <div class="content-txt"> 
+        <h1> Mr. Car - ваш кращий помічник у подорожі! </h1> 
+        <h2> Швидко, легко, надійно! </h2> 
+        </div> 
+        </div> 
+        <div class="images"> 
+        <img src="static/img/4slide.jpeg"> 
+        </div> 
+        </div> 
+        
+        </div> 
         </div>
+    <div class="wrapper">
         <div class="description">
             <h2>Каршерінг - це просто та зручно, похвилинна оренда авто</h2>
             &nbsp;&nbsp;&nbsp;
@@ -70,10 +129,8 @@
                     &nbsp;&nbsp;&nbsp;
                     <h3><p>Каршерінг – похвилинна оренда автомобіля, у вартість якої включено паливо, шини, мийка автомобіля, податки, технічне обслуговування.</p></h3>
         </div>
-        </div>
-        
-        <div class="map">
-            map here
+        <div id="map">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pT9ORB6h33AVmOzCsmuaOd_4uQ8RV02u" width="640" height="480"></iframe>
         </div>
         <div class="features">
             feratures here
@@ -89,5 +146,10 @@
         Content
     </footer>
     <script src="static/script/jquery-3.3.1.min.js"></script>
+    <script src="static/script/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5m_T9oIqzxDzlqXCLOgOr04bjhNC6CEA&callback=initMap">
+    </script>
+
 </body>
 </html>
