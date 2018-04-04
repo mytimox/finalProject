@@ -73,3 +73,22 @@ h2,h3,h1{
 .description ol{
     padding-left: 50px;
 }
+.features{
+    padding-top: 50px;
+}
+.features-wrapper{
+    display: inline-flex;
+    padding-top: 50px;
+}
+.row{
+    padding-left: 10px;
+    border: 1px dotted green;
+}
+.tariff{
+    display: flex;
+    justify-content: center;
+}
+.tariftable img{
+width: 20px;
+height: 20px;
+}
