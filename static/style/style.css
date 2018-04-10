@@ -55,7 +55,6 @@ header {
     display: block;
     width: 80%;
     margin: 0 auto;
-    border: 2px dotted red;
 }
 
 h2,h3,h1{
@@ -208,3 +207,43 @@ footer{
 footer p{
     font-size: 1rem;
 }
+
+.how{
+
+}
+
+.how ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.how li{
+    align-content: stretch;
+    width: 150px;
+    text-align: center;
+    display: block;
+}
+.how img{
+    width:100px;
+}
+
+.arrow{
+    width: 100px;
+    margin-top: 55px;
+}
+.sale{
+    background: #e7eaec;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    width: 300px;
+}
+.text p{
+    margin-top: 50px;
+}
+
